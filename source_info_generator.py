@@ -144,7 +144,7 @@ SRC_OPT_FILE =PLAIN_NAME.split(".")[0] + ".s_stat"
 
 print("\n============ Source Info Generator ============")
 with open(SRC_INFO_PRECURSOR,'w') as opt_analysis:
-    p = subprocess.Popen(["make","-f","makefiles/Makefile",f"{DIRNAME}/{SRC_OPT_FILE}"],stdout=opt_analysis)
+    p = subprocess.Popen(["make","-f","makefiles/makefile_opt",f"{DIRNAME}/{SRC_OPT_FILE}"],stdout=opt_analysis)
     p.wait()
 
 

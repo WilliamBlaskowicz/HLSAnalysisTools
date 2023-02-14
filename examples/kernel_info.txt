@@ -1,0 +1,9 @@
+top_level_function
+L1,loop,16
+L2,array,A,1,16
+L3,array,B,1,16,2,16
+L4,loop,15
+L5,loop,-1
+L6,loop,15
+L7,loop,16
+L8,loop,16
