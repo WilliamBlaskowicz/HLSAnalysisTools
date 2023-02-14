@@ -1,0 +1,9 @@
+LLVM = /home/andreaskk/Documents/LLVM/llvm-project
+LLVM = /Users/andkakolyr/Desktop/LLVM/llvm-project
+CXX = $(LLVM)/build/bin/clang++
+CXX = c++
+LIBCLANG = -I$(LLVM)/clang/include/ -L$(LLVM)/build/lib -lclang -Wl,-rpath=$(LLVM)/build/lib -std=c++11
+LIBCLANG = -I$(LLVM)/clang/include/ -L$(LLVM)/build/lib -lclang -Wl,-rpath,$(LLVM)/build/lib -std=c++11
+
+parser : libclang_parser/libclang_parser.cpp
+	$(CXX) $(LIBCLANG) $< -o $@
