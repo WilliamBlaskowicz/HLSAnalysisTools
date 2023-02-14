@@ -1,4 +1,4 @@
-LLVM = /Users/andkakolyr/Desktop/LLVM/llvm-project
+LLVM = /llvm-project
 
 CXX = $(LLVM)/build/bin/clang++
 CC = $(LLVM)/build/bin/clang
