@@ -1,7 +1,7 @@
 #!/bin/sh
-PATH_TO_LLVM_PASSES=$path_to_llvm/llvm/lib/Passes/
-PATH_TO_LLVM_TRANSFORMS=$path_to_llvm/llvm/lib/Transforms/Utils/
-PATH_TO_LLVM_HEADERS=$path_to_llvm/llvm/include/llvm/Transforms/Utils/
+PATH_TO_LLVM_PASSES=/llvm-project/llvm/lib/Passes/
+PATH_TO_LLVM_TRANSFORMS=/llvm-project/llvm/lib/Transforms/Utils/
+PATH_TO_LLVM_HEADERS=/llvm-project/llvm/include/llvm/Transforms/Utils/
 
 echo "\n\n=========== SETUP =========== "
 echo "Path to LLVM = $path_to_llvm"
